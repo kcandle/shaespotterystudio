@@ -1,0 +1,560 @@
+body {
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Headings*/
+
+.big-heading {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 150px;
+  text-align: center;
+}
+
+.big-letter-heading {
+  font-size: 350px;
+}
+
+@media (max-width: 1024px) {
+
+  .big-heading {
+  font-size: 100px;
+  line-height: 200px;
+  }
+
+  .big-letter-heading {
+    font-size: 250px;
+  }
+}
+
+#title {
+  background-color: #d6ddd8;
+  color: #fff;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  height: 700px;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  fill: #fff;
+  height: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/*Download Buttons*/
+
+.download-button {
+  margin: 5% 3% 5%;
+}
+
+.btn-dark {
+  background-color: #a3543d;
+  border-color: #a3543d;
+}
+
+.btn-outline-light {
+  color: #a3543d;
+  border-color: #a3543d;
+}
+
+.btn-outline-light:hover {
+  color: #a3543d;
+}
+
+/*About Section*/
+
+#about {
+  padding: 4% 3%;
+  background-color: #f2f2f2;
+  position: relative;
+  color: #182628;
+}
+
+.about-header {
+  color: #a3543d;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 80px;
+}
+
+.about-pg {
+  font-size: 18px;
+}
+
+.about-img {
+  height: 300px;
+  padding-bottom: 15px;
+}
+
+.about-img-1 {
+  position: relative;
+  padding-left: 15px;
+}
+
+.about-img-2 {
+  position: relative;
+  padding-left: 60px;
+}
+
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  .about-img-2 {
+    padding-left: 15px;
+  }
+}
+
+/*Mobile Query*/
+@media only screen and (max-width:480px) {
+  .about-img-2 {
+    padding-left: 15px;
+  }
+}
+
+/*Gallery*/
+
+.gallery-container {
+  padding: 4% 15%;
+}
+
+.gallery-header {
+  color: #000;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.gallery-sub-header {
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.gallery-img {
+  padding: 10px;
+}
+
+/*.gallery-img:hover {
+  color: (rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.5));
+}*/
+
+.gallery-img-top {
+  height: 280px;
+}
+
+.gallery-img-mid-1 {
+  height: 542px;
+  width: 725px;
+}
+
+.gallery-img-mid-2 {
+  height: 542px;
+}
+
+.gallery-img-bot {
+  height: 549px;
+}
+
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width:1400px) {
+  .gallery-container {
+    padding: 4% 2%;
+  }
+
+  .gallery-img {
+    width: 500px;
+  }
+
+  .gallery-img-mid-1 {
+    height: 342px;
+  }
+}
+
+/*Mobile Query*/
+@media only screen and (max-width:480px) {
+  .gallery-container {
+    padding: 4% 2%;
+  }
+
+  .gallery-img {
+    width: 700px;
+  }
+
+  .gallery-img-mid-1 {
+    height: 442px;
+  }
+}
+
+/*Instructors Section*/
+#instructors {
+  text-align: center;
+  background-color: #d6ddd8;
+  color: #fff;
+  padding: 0 5%;
+}
+
+.instructors-header {
+  color: #557571;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 80px;
+  padding-top: 4%;
+  line-height: 60px;
+}
+
+.instructors-sub-header {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.instructor-box {
+  padding: 4% 3%;
+}
+
+.instructor-img {
+  height: 250px;
+  border: 10px solid #fff;
+}
+
+.instructor-name {
+  font-size: 60px;
+  font-family: 'Dr Sugiyama', cursive;
+  color: #557571;
+  padding-top: 2%;
+}
+
+/*Classes Section*/
+
+#classes {
+  background-color: #fff;
+  position: relative;
+  color: #182628;
+  padding: 4% 3%;
+}
+
+.classes-header {
+  color: #d49a89;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 80px;
+  padding-left: 100px;
+}
+
+.classes-pg {
+  font-size: 18px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.classes-img {
+  height: 300px;
+  padding-bottom: 15px;
+}
+
+.classes-img-1 {
+  position: relative;
+}
+
+.classes-img-2 {
+  position: relative;
+  padding-right: 60px;
+}
+
+.img-wrap {
+  position: relative;
+  height: 301px;
+  width: 507px;
+}
+
+.img-wrap-1 {
+  left: 45px;
+  position: relative;
+}
+
+.img-des {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 110px;
+  background: rgba(225, 225, 225, 0.4);
+  color: #fff;
+  font-size: 60px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img-wrap:hover .img-des {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  .img-wrap-1 {
+    left: 0px;
+  }
+
+  .classes-header {
+    padding-left: 0px;
+  }
+
+  .classes-pg {
+    padding-left: 0px;
+  }
+}
+
+/*Mobile Query*/
+@media only screen and (max-width:480px) {
+  .img-wrap-1 {
+    left: 0px;
+  }
+
+  .classes-header {
+    padding-left: 0px;
+  }
+
+  .classes-pg {
+    padding-left: 0px;
+  }
+}
+
+/*Prices Section*/
+
+#prices {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.prices-header {
+  color: #a3543d;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 80px;
+  padding-top: 2%;
+}
+
+.price-box {
+  padding: 0 3%;
+}
+
+.price-title {
+  padding-top: 4%;
+  line-height: 30px;
+}
+
+.price-number {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 200px;
+  line-height: 50px;
+  color: #557571;
+}
+
+.price-pg {
+  padding: 12% 5%;
+}
+
+/*Footer Section*/
+
+.footer-distributed{
+  background-color: #a3543d;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color: rgb(225,225,225,0.6);
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #723A2A;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #fff;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color: rgb(225,225,225,0.6);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #723A2A;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
